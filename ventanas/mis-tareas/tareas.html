@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de Gestión de Tareas</title>
+    <link rel="stylesheet" href="../../Estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Gestión de Tareas</h1>
+    </header>
+
+    <main>
+        <section id="tareas-section">
+            <h2>Mis Tareas</h2>
+            <ul id="lista-tareas">
+                </ul>
+
+            <h2>Crear Nueva Tarea</h2>
+            <form id="formulario-tarea">
+                <input type="text" id="titulo-tarea" placeholder="Título" required>
+                <textarea id="descripcion-tarea" placeholder="Descripción" required></textarea>
+                <button type="submit">Crear Tarea</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Plásticos Sustentables</p>
+    </footer>
+
+    <script src="../../tareas.js"></script>
+    <script src="../../script.js"></script> 
+    <script src="../../conexion.js"></script> 
+</body>
+</html>
